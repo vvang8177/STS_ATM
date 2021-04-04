@@ -1,0 +1,133 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 25, 2021, 10:48:30 PM
+    Author     : Vues
+*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+
+#logoCust{
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 30px;
+    color: BLACK;
+    margin: -50px;
+}
+
+.nav_links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    font-size: 20px;
+}
+
+.nav_links li{
+    list-style: none;
+}
+
+.nav_links a{
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.nav_links li a{
+    color: black;
+}
+
+.nav_links li a:hover{
+    color: #499e56;
+}
+
+.inputDiv{
+    position: relative;
+    border-bottom: 2px solid black;
+    width: auto;
+    height: 400px;
+    background-color: #75ce84;
+    text-align: center;
+}
+
+.insideDiv{
+    text-align: center;
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+    justify-content: center;
+}
+
+input{
+    text-align: center;
+    width: 150px;
+    font-size: 18px;
+}
+
+button{
+    font-size: 16px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.outDiv{
+    border-bottom: 2px solid black;
+    height: 600px;
+}
+
+.insideOutDiv{
+    text-align: center;
+}
+
+.pContainer p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.contactDiv{
+    background-color: black;
+}
+
+.contactUL{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color: #75ce84;
+    list-style: none;
+    height: 100px;
+
+}
+
+.contactUL li{
+    font-size: 14pt;
+    display: inline-block;
+    margin: 10px;
+}
+
+.contactUL li a{
+    text-decoration: none;
+    color: #75ce84;
+}
+
+.contactUL li a:hover{
+    color: #499e56;
+}

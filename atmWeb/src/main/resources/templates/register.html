@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/register.css"/>
+</head>
+<body>
+      <div class="centerboxes">
+            <div class="borderline">
+                <form method="POST" th:action="@{/process_register}" th:object="${user}"><br><br>
+                <input type="email" placeholder="Email" th:field=*{user_email} required><br><br>
+                <input type="password" placeholder="Password" th:field=*{user_pass} required><br><br>
+                <input type="text" placeholder="First Name" th:field=*{user_first} required><br><br>
+                <input type="text" placeholder="Last Name" th:field=*{user_last} required><br><br>
+                <button>Submit</button><br>
+                <p>Already have an account? <a th:href="@{/home}">Login</a>
+                </form>
+            </div>
+        </div>
+</body>
+</html>

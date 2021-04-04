@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 25, 2021, 10:48:30 PM
+    Author     : Vues
+*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+   	background-color:#499e56;
+    
+}
+
+.centerboxes{
+}
+
+.borderline{
+    position: absolute;
+    bottom:40%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    width: 200px;
+    font-size: 18px;
+}
+
+button{
+    font-size: 16px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
